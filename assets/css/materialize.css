@@ -4902,7 +4902,7 @@ section.intro {
     background-position: 500px 1000px, 200px 400px, -100px 300px; } }
 @media only screen and (max-width: 1100px) {
   section.intro {
-    margin-top: 1rem; }
+    padding-top: 2rem; }
     section.intro .title-container .title .col {
       padding-left: 0;
       padding-right: 0; }
