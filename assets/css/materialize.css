@@ -2075,7 +2075,7 @@ video.responsive-video {
   display: inline-block;
   float: none; }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1100px) {
   .pagination {
     width: 100%; }
     .pagination li.prev,
@@ -2156,7 +2156,7 @@ ul.staggered-list li {
   .hide-on-small-only, .hide-on-small-and-down {
     display: none !important; } }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1100px) {
   .hide-on-med-and-down {
     display: none !important; } }
 
@@ -2164,19 +2164,19 @@ ul.staggered-list li {
   .hide-on-med-and-up {
     display: none !important; } }
 
-@media only screen and (min-width: 600px) and (max-width: 992px) {
+@media only screen and (min-width: 600px) and (max-width: 1100px) {
   .hide-on-med-only {
     display: none !important; } }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1100px) {
   .hide-on-large-only {
     display: none !important; } }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1100px) {
   .show-on-large {
     display: block !important; } }
 
-@media only screen and (min-width: 600px) and (max-width: 992px) {
+@media only screen and (min-width: 600px) and (max-width: 1100px) {
   .show-on-medium {
     display: block !important; } }
 
@@ -2188,7 +2188,7 @@ ul.staggered-list li {
   .show-on-medium-and-up {
     display: block !important; } }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1100px) {
   .show-on-medium-and-down {
     display: block !important; } }
 
@@ -2237,7 +2237,7 @@ td, th {
   vertical-align: middle;
   border-radius: 2px; }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1100px) {
   table.responsive-table {
     width: 100%;
     border-collapse: collapse;
@@ -2491,7 +2491,7 @@ input[type=range] + .thumb {
 @media only screen and (min-width: 601px) {
   .container {
     width: 85%; } }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1100px) {
   .container {
     width: 70%; } }
 .container .row {
@@ -2788,7 +2788,7 @@ input[type=range] + .thumb {
         right: 100%; }
       .row .col.push-m12 {
         left: 100%; } }
-    @media only screen and (min-width: 993px) {
+    @media only screen and (min-width: 1100px) {
       .row .col.l1 {
         width: 8.33333%;
         margin-left: auto;
@@ -2948,7 +2948,7 @@ nav {
   nav .nav-wrapper {
     position: relative;
     height: 100%; }
-  @media only screen and (min-width: 993px) {
+  @media only screen and (min-width: 1100px) {
     nav a.button-collapse {
       display: none; } }
   nav .button-collapse {
@@ -2970,7 +2970,7 @@ nav {
     nav .brand-logo.center {
       left: 50%;
       transform: translateX(-50%); }
-    @media only screen and (max-width: 992px) {
+    @media only screen and (max-width: 1100px) {
       nav .brand-logo {
         left: 50%;
         transform: translateX(-50%); }
@@ -3095,7 +3095,7 @@ html {
   @media only screen and (min-width: 0) {
     html {
       font-size: 14px; } }
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 1100px) {
     html {
       font-size: 14.5px; } }
   @media only screen and (min-width: 1200px) {
@@ -3231,12 +3231,12 @@ small {
     #toast-container {
       min-width: 100%;
       bottom: 0%; } }
-  @media only screen and (min-width: 601px) and (max-width: 992px) {
+  @media only screen and (min-width: 601px) and (max-width: 1100px) {
     #toast-container {
       left: 5%;
       bottom: 7%;
       max-width: 90%; } }
-  @media only screen and (min-width: 993px) {
+  @media only screen and (min-width: 1100px) {
     #toast-container {
       top: 10%;
       right: 7%;
@@ -3271,10 +3271,10 @@ small {
     .toast {
       width: 100%;
       border-radius: 0; } }
-  @media only screen and (min-width: 601px) and (max-width: 992px) {
+  @media only screen and (min-width: 601px) and (max-width: 1100px) {
     .toast {
       float: left; } }
-  @media only screen and (min-width: 993px) {
+  @media only screen and (min-width: 1100px) {
     .toast {
       float: right; } }
 
@@ -3336,7 +3336,7 @@ small {
     background-color: #f6b2b5;
     will-change: left, right; }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1100px) {
   .tabs {
     display: flex; }
     .tabs .tab {
@@ -3694,7 +3694,7 @@ button.btn-floating {
   overflow-y: auto;
   border-radius: 2px;
   will-change: top, opacity; }
-  @media only screen and (max-width: 992px) {
+  @media only screen and (max-width: 1100px) {
     .modal {
       width: 80%; } }
   .modal h1, .modal h2, .modal h3, .modal h4 {
@@ -4074,7 +4074,7 @@ textarea.materialize-textarea {
     width: calc(100% - 3rem); }
   .input-field .prefix ~ label {
     margin-left: 3rem; }
-  @media only screen and (max-width: 992px) {
+  @media only screen and (max-width: 1100px) {
     .input-field .prefix ~ input {
       width: 86%;
       width: calc(100% - 3rem); } }
@@ -4826,7 +4826,7 @@ input[type=range]:focus::-ms-fill-upper {
     right: 0;
     left: auto; }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1100px) {
   .side-nav.fixed {
     transform: translateX(-105%); }
     .side-nav.fixed.right-aligned {
@@ -4854,7 +4854,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 section.intro {
   position: relative;
-  background-image: url("/assets/images/background.jpg");
+  background-image: url("/portfolio/assets/images/background.jpg");
   height: 100vh;
   width: 100vw;
   background-size: cover; }
@@ -4863,7 +4863,8 @@ section.intro {
     z-index: 99; }
     section.intro .title-container .title {
       border: 1px solid #E6E6E6;
-      border-radius: 1px; }
+      border-radius: 1px;
+      display: inline-block; }
       section.intro .title-container .title .col {
         padding-left: 0; }
         section.intro .title-container .title .col h1 {
@@ -4887,7 +4888,7 @@ section.intro {
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0.4;
+  opacity: 0.6;
   background-image: url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-medium-0b8a5e0732315b68e1f54185be7a1ad9.png"), url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-small-1ecd03b1fce08c24e064ff8c0a72c519.png"), url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-small-1ecd03b1fce08c24e064ff8c0a72c519.png");
   width: 100vw;
   height: 100vh;
@@ -4896,20 +4897,24 @@ section.intro {
 
 @keyframes snow {
   from {
-    background-position: 0px 0px, 0px 0px, 0px 0px; }
+    background-position: 0 0, 0 0, 0 0; }
   to {
     background-position: 500px 1000px, 200px 400px, -100px 300px; } }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1100px) {
   section.intro .title-container .title .col {
     padding-left: 0;
     padding-right: 0; }
     section.intro .title-container .title .col h1 {
-      margin: 0; }
+      margin-bottom: 1rem; }
       section.intro .title-container .title .col h1 span {
         width: 100%;
         display: inline-block;
         background: #E6E6E6;
         color: #263238;
-        padding: 1rem; } }
+        padding: 1rem;
+        margin-bottom: 1rem; } }
+@media only screen and (min-width: 601px) {
+  section.intro .title-container {
+    width: 85%; } }
 
 /*# sourceMappingURL=materialize.css.map */
