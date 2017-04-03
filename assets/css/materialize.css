@@ -4857,7 +4857,8 @@ section.intro {
   background-image: url("/assets/images/background.jpg");
   min-height: 100vh;
   min-width: 100vw;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center bottom; }
   section.intro .title-container {
     color: #E6E6E6;
     z-index: 99; }
