@@ -4901,18 +4901,20 @@ section.intro {
   to {
     background-position: 500px 1000px, 200px 400px, -100px 300px; } }
 @media only screen and (max-width: 1100px) {
-  section.intro .title-container .title .col {
-    padding-left: 0;
-    padding-right: 0; }
-    section.intro .title-container .title .col h1 {
-      margin-bottom: 1rem; }
-      section.intro .title-container .title .col h1 span {
-        width: 100%;
-        display: inline-block;
-        background: #E6E6E6;
-        color: #263238;
-        padding: 1rem;
-        margin-bottom: 1rem; } }
+  section.intro {
+    margin-top: 1rem; }
+    section.intro .title-container .title .col {
+      padding-left: 0;
+      padding-right: 0; }
+      section.intro .title-container .title .col h1 {
+        margin-bottom: 1rem; }
+        section.intro .title-container .title .col h1 span {
+          width: 100%;
+          display: inline-block;
+          background: #E6E6E6;
+          color: #263238;
+          padding: 1rem;
+          margin-bottom: 1rem; } }
 @media only screen and (min-width: 601px) {
   section.intro .title-container {
     width: 85%; } }
