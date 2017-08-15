@@ -1,13 +1,11 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Monzo Web</title><base href="/monzo-web/"><link rel="icon" type="image/x-icon" href="favicon.ico"><link href="/monzo-web/styles.dd14b11c766522f98f91.bundle.css" rel="stylesheet"/></head><body><script>
-    (function () {
-      // Retrieve the URL the user was trying to access when receiving the 404.
-      var redirect = sessionStorage.redirect;
-      // Remove the URL from sessionStorage.
-      delete sessionStorage.redirect;
-      // Check if we actually need to redirect.
-      if (redirect && redirect != location.href) {
-        // We need to redirect to the URL the user was trying to access.
-        history.replaceState(null, null, redirect);
-      }
-    })();
-  </script><app-root><div style="position: absolute; top: 0; bottom: 0; height: 100vh; width: 100vw; background:#14233C; text-align:center"><img style="padding-top: 20%" src="assets/icons/monzo-inverse.svg"><p style="color: #fff">Loading App...</p></div></app-root><script type="text/javascript" src="/monzo-web/inline.75d7d66fe49d50bcd776.bundle.js"></script><script type="text/javascript" src="/monzo-web/polyfills.00b8ce774dd6a5811f27.bundle.js"></script><script type="text/javascript" src="/monzo-web/vendor.05587bd5bfebf9a97f59.bundle.js"></script><script type="text/javascript" src="/monzo-web/main.d3a8713ec1e2718079dd.bundle.js"></script></body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Monzo Web</title><base href="/"><link rel="icon" type="image/x-icon" href="favicon.ico"><link href="/monzo-web/styles.dd14b11c766522f98f91.bundle.css" rel="stylesheet"/></head><body><script>(function () {
+    // Retrieve the URL the user was trying to access when receiving the 404.
+    var redirect = sessionStorage.redirect;
+    // Remove the URL from sessionStorage.
+    delete sessionStorage.redirect;
+    // Check if we actually need to redirect.
+    if (redirect && redirect != location.href) {
+      // We need to redirect to the URL the user was trying to access.
+      history.replaceState(null, null, redirect);
+    }
+  })();</script><app-root><div style="position: absolute; top: 0; bottom: 0; height: 100vh; width: 100vw; background:#14233C; text-align:center"><img style="padding-top: 20%" src="assets/icons/monzo-inverse.svg"><p style="color: #fff">Loading App...</p></div></app-root><script type="text/javascript" src="/monzo-web/inline.9ca1c6d0743068121ffa.bundle.js"></script><script type="text/javascript" src="/monzo-web/polyfills.00b8ce774dd6a5811f27.bundle.js"></script><script type="text/javascript" src="/monzo-web/vendor.05587bd5bfebf9a97f59.bundle.js"></script><script type="text/javascript" src="/monzo-web/main.010c761fde4c5ed4b802.bundle.js"></script></body></html>
