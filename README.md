@@ -1,1 +1,0 @@
-# bdftizgerald.github.io
