@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hello Bulma!</title>
+  <link rel="stylesheet" href="public/css/app.css">
+  <script defer src="public/js/app.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+</head>
+<body>
+
+<!--
+  Header and Navigation
+-->
+
+<section class="hero is-success is-medium is-bold">
+  <!-- Hero head: will stick at the top -->
+  <div class="hero-head">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item">
+            Fun Almanac
+          </a>
+          <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenuHeroA" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item is-active" href="/funalmanac/">
+              Home
+            </a>
+            <a class="navbar-item" href="/funalmanac/events">
+              Events
+            </a>
+            <a class="navbar-item">
+              Let Us Know
+            </a>
+            <a class="navbar-item">
+              Contact Us
+            </a>
+            <a class="navbar-item">
+              Login/Register
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title">
+        Pirate park
+      </h1>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="content">
+      <div class="columns">
+        <div class="column">
+          <div class='carousel carousel-animated carousel-animate-slide'>
+            <div class='carousel-container'>
+              <div class='carousel-item has-background is-active'>
+                <img class="is-background" src="public/images/event_1.jpg" alt=""/>
+                <div class="title">Merry Christmas</div>
+              </div>
+              <div class='carousel-item has-background'>
+                <img class="is-background" src="public/images/event_1.jpg" alt=""/>
+                <div class="title">Short Description</div>
+              </div>
+              <div class='carousel-item has-background'>
+                <img class="is-background" src="public/images/event_1.jpg" alt=""/>
+                <div class="title">Sushi time</div>
+              </div>
+              <div class='carousel-item has-background'>
+                <img class="is-background" src="public/images/event_1.jpg" alt=""/>
+                <div class="title">Life</div>
+              </div>
+            </div>
+            <div class="carousel-navigation is-overlay">
+              <div class="carousel-nav-left">
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+              </div>
+              <div class="carousel-nav-right">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <h2 class="title is-2 is-spaced">
+            Event Details
+          </h2>
+          <div class="tags">
+            <span class="tag is-primary">One</span>
+            <span class="tag is-primary">Two</span>
+            <span class="tag is-primary">Three</span>
+            <span class="tag is-primary">Four</span>
+            <span class="tag is-primary">Five</span>
+          </div>
+
+          <p class="subtitle is-5">
+            <i class="fa fa-thumbs-up has-text-info"></i>
+            45
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </p>
+          <table class="table table is-fullwidth">
+            <tbody>
+            <tr>
+              <td>Age Range:</td>
+              <td>All Age Groups</td>
+            </tr>
+            <tr>
+              <td>Dates:</td>
+              <td>Open All Year Round</td>
+            </tr>
+            <tr>
+              <td>Price Per Child:</td>
+              <td>Free</td>
+            </tr>
+            <tr>
+              <td>Price Per Adult:</td>
+              <td>Free</td>
+            </tr>
+            <tr>
+              <td>Venue:</td>
+              <td>15 Hoppers Meadow, Loughton, Milton Keynes MK5 8DR</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="tabs is-boxed is-fullwidth">
+      <ul>
+        <li class="is-active">
+          <a>
+            <span class="icon is-small"><i class="fas fa-file-alt"></i></span>
+            <span>Comments</span>
+          </a>
+        </li>
+        <li>
+          <a>
+            <span class="icon is-small"><i class="fas fa-image"></i></span>
+            <span>Pictures</span>
+          </a>
+        </li>
+        <li>
+          <a>
+            <span class="icon is-small"><i class="fas fa-film"></i></span>
+            <span>Videos</span>
+          </a>
+        </li>
+        <li>
+          <a>
+            <span class="icon is-small"><i class="fas fa-calendar"></i></span>
+            <span>Related Events</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="tabs-content">
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="https://bulma.io/images/placeholders/128x128.png">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>Barbara Middleton</strong>
+              <br>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porta eros lacus, nec ultricies elit blandit non. Suspendisse pellentesque mauris sit amet dolor blandit rutrum. Nunc in tempus turpis.
+              <br>
+              <small><a>Like</a> · <a>Reply</a> · 3 hrs</small>
+            </p>
+          </div>
+
+          <article class="media">
+            <figure class="media-left">
+              <p class="image is-48x48">
+                <img src="https://bulma.io/images/placeholders/96x96.png">
+              </p>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <p>
+                  <strong>Sean Brown</strong>
+                  <br>
+                  Donec sollicitudin urna eget eros malesuada sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam blandit nisl a nulla sagittis, a lobortis leo feugiat.
+                  <br>
+                  <small><a>Like</a> · <a>Reply</a> · 2 hrs</small>
+                </p>
+              </div>
+
+              <article class="media">
+                Vivamus quis semper metus, non tincidunt dolor. Vivamus in mi eu lorem cursus ullamcorper sit amet nec massa.
+              </article>
+
+              <article class="media">
+                Morbi vitae diam et purus tincidunt porttitor vel vitae augue. Praesent malesuada metus sed pharetra euismod. Cras tellus odio, tincidunt iaculis diam non, porta aliquet tortor.
+              </article>
+            </div>
+          </article>
+
+          <article class="media">
+            <figure class="media-left">
+              <p class="image is-48x48">
+                <img src="https://bulma.io/images/placeholders/96x96.png">
+              </p>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <p>
+                  <strong>Kayli Eunice </strong>
+                  <br>
+                  Sed convallis scelerisque mauris, non pulvinar nunc mattis vel. Maecenas varius felis sit amet magna vestibulum euismod malesuada cursus libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus lacinia non nisl id feugiat.
+                  <br>
+                  <small><a>Like</a> · <a>Reply</a> · 2 hrs</small>
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </article>
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="https://bulma.io/images/placeholders/128x128.png">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="field">
+            <p class="control">
+              <textarea class="textarea" placeholder="Add a comment..."></textarea>
+            </p>
+          </div>
+          <div class="field">
+            <p class="control">
+              <button class="button">Post comment</button>
+            </p>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<iframe width="100%" height="450" frameborder="0" style="border:0"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC0yNqpHLIu5DwqH1En9lux9eedtnBeWVY&#10;&#9;&#9;      &amp;q=MK5 8DR"
+        allowfullscreen=""></iframe>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Fun Almanac</strong> by <a href="https://jgthms.com">Byron Fitzgerald</a>.
+      </p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

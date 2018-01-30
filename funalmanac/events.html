@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hello Bulma!</title>
+  <link rel="stylesheet" href="public/css/app.css">
+  <script defer src="public/js/app.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+</head>
+<body>
+
+<!--
+  Header and Navigation
+-->
+
+<section class="hero is-primary is-medium is-bold">
+  <!-- Hero head: will stick at the top -->
+  <div class="hero-head">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item">
+            Fun Almanac
+          </a>
+          <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenuHeroA" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item is-active" href="/funalmanac/">
+              Home
+            </a>
+            <a class="navbar-item" href="/funalmanac/events">
+              Events
+            </a>
+            <a class="navbar-item">
+              Let Us Know
+            </a>
+            <a class="navbar-item">
+              Contact Us
+            </a>
+            <a class="navbar-item">
+              Login/Register
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title">
+        Fun Almanac
+      </h1>
+      <h2 class="subtitle">
+        Search our selection of Events
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <h2 class="title is-2">Events</h2>
+
+    <hr>
+    <div class="columns">
+
+      <div class="column is-one-quarter">
+
+        <div clas="form">
+
+          <div class="field">
+            <div class="control">
+              <button class="button is-success is-expanded">Search</button>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Search by Name</label>
+            <div class="control has-icons-left has-icons-right">
+              <input class="input" type="text" placeholder="Search..." value="">
+              <span class="icon is-small is-left">
+                <i class="fas fa-search"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class="dropdown is-hoverable is-expanded">
+            <div class="dropdown-trigger">
+              <button class="button" aria-haspopup="true" aria-controls="dropdown-menu4">
+                <span>Filter By Categories</span>
+                <span class="icon is-small">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </button>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+              <div class="dropdown-content">
+                <div class="dropdown-item">
+                  <div class="field">
+                    <input class="is-checkradio is-success" type="checkbox" name="exampleCheckboxDefault"
+                    >
+                    <label>Theme Parks</label>
+                  </div>
+                  <div class="field">
+                    <input class="is-checkradio is-success" type="checkbox" name="exampleCheckboxDefault"
+                    >
+                    <label>Play Venue</label>
+                  </div>
+                  <div class="field">
+                    <input class="is-checkradio is-success" type="checkbox" name="exampleCheckboxDefault"
+                    >
+                    <label>Parent & Baby/Toddler Group</label>
+                  </div>
+                  <div class="field">
+                    <input class="is-checkradio is-success" type="checkbox" name="exampleCheckboxDefault"
+                    >
+                    <label>Council Playpark/Event</label>
+                  </div>
+                  <div class="field">
+                    <input class="is-checkradio is-success" type="checkbox" name="exampleCheckboxDefault"
+                    >
+                    <label>Funfair/Carnival/Parade</label>
+                  </div>
+                  <div class="field">
+                    <input class="is-checkradio is-success" type="checkbox" name="exampleCheckboxDefault"
+                    >
+                    <label>Arts/Crafts</label>
+                  </div>
+                  <div class="field">
+                    <input class="is-checkradio is-success" type="checkbox" name="exampleCheckboxDefault"
+                    >
+                    <label>Educational/Class/Lectures/Tutorial</label>
+                  </div>
+                  <div class="field">
+                    <input class="is-checkradio is-success" type="checkbox" name="exampleCheckboxDefault"
+                    >
+                    <label>Charity Event</label>
+                  </div>
+                  <div class="field">
+                    <input class="is-checkradio is-success" type="checkbox" name="exampleCheckboxDefault"
+                    >
+                    <label>School Fete</label>
+                  </div>
+                  <div class="field">
+                    <input class="is-checkradio is-success" type="checkbox" name="exampleCheckboxDefault"
+                    >
+                    <label>Theatre/Drama</label>
+                  </div>
+                  <div class="field">
+                    <input class="is-checkradio is-success" type="checkbox" name="exampleCheckboxDefault"
+                    >
+                    <label>Dance/Performing Arts</label>
+                  </div>
+                  <div class="field">
+                    <input class="is-checkradio is-success" type="checkbox" name="exampleCheckboxDefault"
+                    >
+                    <label>Music Concert/Event/Festival</label>
+                  </div>
+                  <div class="field">
+                    <input class="is-checkradio is-success" type="checkbox" name="exampleCheckboxDefault"
+                    >
+                    <label>Film/Cinema/Filmogrophy</label>
+                  </div>
+                  <div class="field">
+                    <input class="is-checkradio is-success" type="checkbox" name="exampleCheckboxDefault"
+                    >
+                    <label>Outdoor Activity/Play/Entertainment</label>
+                  </div>
+                  <div class="field">
+                    <input class="is-checkradio is-success" type="checkbox" name="exampleCheckboxDefault"
+                    >
+                    <label>Sporting Activity/Sporting Clubs/Training</label>
+                  </div>
+                  <div class="field">
+                    <input class="is-checkradio is-success" type="checkbox" name="exampleCheckboxDefault"
+                    >
+                    <label>Museum</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="dropdown is-hoverable is-expanded">
+            <div class="dropdown-trigger">
+              <button class="button" aria-haspopup="true" aria-controls="dropdown-menu4">
+                <span>Filter By Occurence</span>
+                <span class="icon is-small">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </button>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu2" role="menu">
+              <div class="dropdown-content">
+                <div class="dropdown-item">
+                  <div class="field">
+                    <input class="is-checkradio is-success" type="checkbox" name="exampleCheckboxDefault">
+                    <label>Regular</label>
+                  </div>
+                  <div class="field">
+                    <input class="is-checkradio is-success" type="checkbox" name="exampleCheckboxDefault">
+                    <label>Permanent</label>
+                  </div>
+                  <div class="field">
+                    <input class="is-checkradio is-success" type="checkbox" name="exampleCheckboxDefault">
+                    <label>Weekly</label>
+                  </div>
+                  <div class="field">
+                    <input class="is-checkradio is-success" type="checkbox" name="exampleCheckboxDefault">
+                    <label>Monthly</label>
+                  </div>
+                  <div class="field">
+                    <input class="is-checkradio is-success" type="checkbox" name="exampleCheckboxDefault">
+                    <label>Annual</label>
+                  </div>
+                  <div class="field">
+                    <input class="is-checkradio is-success" type="checkbox" name="exampleCheckboxDefault">
+                    <label>Bi-annual</label>
+                  </div>
+                  <div class="field">
+                    <input class="is-checkradio is-success" type="checkbox" name="exampleCheckboxDefault">
+                    <label>One-off</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">City/Town/Village</label>
+            <div class="control">
+              <div class="select is-expanded">
+                <select class="is-expanded">
+                  <option>Select City/Town/Village</option>
+                  <option>With options</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">County</label>
+            <div class="control">
+              <div class="select is-expanded">
+                <select class="is-expanded">
+                  <option>Select County</option>
+                  <option>With options</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Country</label>
+            <div class="control">
+              <div class="select is-expanded">
+                <select class="is-expanded">
+                  <option>Select Country</option>
+                  <option>With options</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Max Price (£)</label>
+            <div class="control">
+              <input class="slider is-fullwidth is-success is-circle" step="1" min="0" max="100" value="0" type="range">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="column">
+        <div class="columns">
+
+          <div class="column is-one-third">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="public/images/event_1.jpg" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+
+                <p class="title is-4">Pirate park</p>
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris.
+                  <br>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+              <span>
+                <a href="/funalmanac/event">Read More</a>
+              </span>
+                </p>
+                <p class="card-footer-item">
+              <span>
+                Share on <i class="fab fa-facebook-square has-text-info"></i>
+              </span>
+                </p>
+              </footer>
+            </div>
+          </div>
+
+          <div class="column is-one-third">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="public/images/event_2.jpg" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+
+                <p class="title is-4">Bedford Town</p>
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris.
+                  <br>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+              <span>
+                <a href="/funalmanac/event">Read More</a>
+              </span>
+                </p>
+                <p class="card-footer-item">
+              <span>
+                Share on <i class="fab fa-facebook-square has-text-info"></i>
+              </span>
+                </p>
+              </footer>
+            </div>
+          </div>
+
+          <div class="column is-one-third">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="public/images/event_3.jpg" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <p class="title is-4">Bibury trout farm</p>
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris.
+                  <br>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+              <span>
+                <a href="/funalmanac/event">Read More</a>
+              </span>
+                </p>
+                <p class="card-footer-item">
+              <span>
+                Share on <i class="fab fa-facebook-square has-text-info"></i>
+              </span>
+                </p>
+              </footer>
+            </div>
+          </div>
+
+          <div class="column is-one-third">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="public/images/event_1.jpg" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+
+                <p class="title is-4">Pirate park</p>
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris.
+                  <br>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+              <span>
+                <a href="/funalmanac/event">Read More</a>
+              </span>
+                </p>
+                <p class="card-footer-item">
+              <span>
+                Share on <i class="fab fa-facebook-square has-text-info"></i>
+              </span>
+                </p>
+              </footer>
+            </div>
+          </div>
+
+          <div class="column is-one-third">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="public/images/event_2.jpg" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+
+                <p class="title is-4">Bedford Town</p>
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris.
+                  <br>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+              <span>
+                <a href="/funalmanac/event">Read More</a>
+              </span>
+                </p>
+                <p class="card-footer-item">
+              <span>
+                Share on <i class="fab fa-facebook-square has-text-info"></i>
+              </span>
+                </p>
+              </footer>
+            </div>
+          </div>
+
+          <div class="column is-one-third">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="public/images/event_3.jpg" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <p class="title is-4">Bibury trout farm</p>
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris.
+                  <br>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+              <span>
+                <a href="/funalmanac/event">Read More</a>
+              </span>
+                </p>
+                <p class="card-footer-item">
+              <span>
+                Share on <i class="fab fa-facebook-square has-text-info"></i>
+              </span>
+                </p>
+              </footer>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <hr>
+    <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+      <a class="pagination-previous">Previous</a>
+      <a class="pagination-next">Next page</a>
+      <ul class="pagination-list">
+        <li><a class="pagination-link" aria-label="Goto page 1">1</a></li>
+        <li><span class="pagination-ellipsis">&hellip;</span></li>
+        <li><a class="pagination-link" aria-label="Goto page 45">45</a></li>
+        <li><a class="pagination-link is-current" aria-label="Page 46" aria-current="page">46</a></li>
+        <li><a class="pagination-link" aria-label="Goto page 47">47</a></li>
+        <li><span class="pagination-ellipsis">&hellip;</span></li>
+        <li><a class="pagination-link" aria-label="Goto page 86">86</a></li>
+      </ul>
+    </nav>
+    <hr>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Fun Almanac</strong> by <a href="https://jgthms.com">Byron Fitzgerald</a>.
+      </p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
