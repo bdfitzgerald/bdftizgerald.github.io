@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hello Bulma!</title>
+  <link rel="stylesheet" href="public/css/app.css">
+  <script defer src="public/js/app.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+</head>
+<body>
+
+<!--
+  Header and Navigation
+-->
+
+<section class="hero is-primary is-medium is-bold">
+  <!-- Hero head: will stick at the top -->
+  <div class="hero-head">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item">
+            Fun Almanac
+          </a>
+          <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenuHeroA" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item is-active" href="/funalmanac/">
+              Home
+            </a>
+            <a class="navbar-item" href="/funalmanac/events">
+              Events
+            </a>
+            <a class="navbar-item" href="/funalmanac/let-us-know">
+              Let Us Know
+            </a>
+            <a class="navbar-item">
+              Contact Us
+            </a>
+            <a class="navbar-item" id="login">
+              Login/Register
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title">
+        Let Us Know
+      </h1>
+      <h2 class="subtitle">
+        Please fill out the form below to let us know about your event
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <div class="steps" id="stepsDemo">
+      <div class="step-item is-active is-success">
+        <div class="step-marker">1</div>
+        <div class="step-details">
+          <p class="step-title">Event Description</p>
+        </div>
+      </div>
+      <div class="step-item is-success">
+        <div class="step-marker">2</div>
+        <div class="step-details">
+          <p class="step-title">Event Specifics</p>
+        </div>
+      </div>
+      <div class="step-item is-success">
+        <div class="step-marker">3</div>
+        <div class="step-details">
+          <p class="step-title">Event Location</p>
+        </div>
+      </div>
+      <div class="step-item is-success">
+        <div class="step-marker">3</div>
+        <div class="step-details">
+          <p class="step-title">Event Media</p>
+        </div>
+      </div>
+      <div class="step-item is-success">
+        <div class="step-marker">4</div>
+        <div class="step-details">
+          <p class="step-title">Finish</p>
+        </div>
+      </div>
+      <div class="steps-content">
+        <div class="step-content has-text-centered is-active">
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">Name</label>
+            </div>
+            <div class="field-body">
+              <div class="field">
+                <div class="control">
+                  <input class="input" name="username" id="username" type="text" placeholder="Username" autofocus
+                         data-validate="require">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">Description</label>
+            </div>
+            <div class="field-body">
+              <div class="field">
+                <div class="control has-icon has-icon-right">
+                  <textarea class="textarea" placeholder="Description"></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">Categories</label>
+            </div>
+            <div class="field-body">
+              <div class="field">
+                <div class="control has-icon has-icon-right">
+                  <input class="input" type="text" name="password_confirm" id="password_confirm"
+                         placeholder="Categories" data-validate="require">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="step-content has-text-centered">
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">Occurrence</label>
+            </div>
+            <div class="field-body">
+              <div class="field">
+                <div class="control">
+                  <div class="select is-expanded">
+                    <select class="is-expanded">
+                      <option>Daily</option>
+                      <option>Weekly</option>
+                      <option>Fortnightly</option>
+                      <option>Monthly</option>
+                      <option>Yearly</option>
+                      <option>Once</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">Date</label>
+            </div>
+            <div class="field-body">
+              <div class="field">
+                <div class="control has-icon has-icon-right">
+                  <input class="input" type="date" name="lastname" id="lastname" placeholder="Last name"
+                         data-validate="require">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">Price Per Adult</label>
+            </div>
+            <div class="field-body">
+              <div class="field">
+                <div class="control has-icon has-icon-right">
+                  <input id="sliderAdult" class="slider has-output-tooltip is-success is-fullwidth" min="0" max="100"
+                         value="50" step="1" type="range">
+                  <output for="sliderAdult">50</output>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">Price Per Child</label>
+            </div>
+            <div class="field-body">
+              <div class="field">
+                <div class="control has-icon has-icon-right">
+                  <input id="sliderChild" class="slider has-output-tooltip is-success is-fullwidth" min="0" max="100"
+                         value="50" step="1" type="range">
+                  <output for="sliderChild">50</output>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="step-content has-text-centered">
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">Address</label>
+            </div>
+            <div class="field-body">
+              <div class="field">
+                <div class="control">
+                  <input class="input" name="facebook" id="address" type="text" placeholder="Address" autofocus
+                         data-validate="require">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">County</label>
+            </div>
+            <div class="field-body">
+              <div class="field">
+                <div class="control">
+                  <input class="input" name="fsadf" id="county" type="text" placeholder="County" autofocus
+                         data-validate="require">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">Country</label>
+            </div>
+            <div class="field-body">
+              <div class="field">
+                <div class="control">
+                  <input class="input" name="twitter" id="country" type="text" placeholder="Country..." autofocus
+                         data-validate="require">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">Post Code</label>
+            </div>
+            <div class="field-body">
+              <div class="field">
+                <div class="control">
+                  <input class="input" name="twitter" id="postcode" type="text" placeholder="Post Code..." autofocus
+                         data-validate="require">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="step-content has-text-centered">
+
+          <div class="field">
+            <div class="field-label is-normal has-text-centered">
+              <label class="label">Add Images</label>
+            </div>
+            <div class="file is-centered is-boxed is-success has-name">
+              <label class="file-label">
+                <input class="file-input" type="file" name="resume">
+                <span class="file-cta">
+                  <span class="file-icon">
+                    <i class="fas fa-upload"></i>
+                  </span>
+                  <span class="file-label">
+                    Centered file…
+                  </span>
+                </span>
+                <span class="file-name">
+                  Event_Image.png
+                </span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="step-content has-text-centered">
+          <h3 class="title is-4">Your event has been created and is now under review!</h3>
+          <p class="subtitle">You will be notified when the event is published</p>
+        </div>
+      </div>
+      <div class="steps-actions">
+        <div class="steps-action">
+          <a href="#" data-nav="previous" class="button is-success is-outlined">Previous</a>
+        </div>
+        <div class="steps-action">
+          <a href="#" data-nav="next" class="button is-success is-outlined">Next</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Fun Almanac</strong> by <a href="https://jgthms.com">Byron Fitzgerald</a>.
+      </p>
+    </div>
+  </div>
+</footer>
+
+<div class="modal" id="login-modal">
+  <div class="modal-background"></div>
+  <div class="modal-content form">
+    <h2 class="title is-3 has-text-center">Login</h2>
+    <p class="subtitle is-6">Login with your email or username</p>
+    <div class="field">
+      <label class="label">Email or Username</label>
+      <p class="control has-icons-left">
+        <input class="input" type="text" placeholder="Enter Email Or Username...">
+        <span class="icon is-small is-left">
+            <i class="fas fa-user"></i>
+          </span>
+      </p>
+    </div>
+    <div class="field">
+      <label class="label">Password</label>
+      <p class="control has-icons-left">
+        <input class="input" type="password" placeholder="Enter Password...">
+        <span class="icon is-small is-left">
+            <i class="fas fa-lock"></i>
+          </span>
+      </p>
+    </div>
+    <div class="field">
+      <p class="control">
+        <button class="button is-success is-expanded">
+          Login
+        </button>
+      </p>
+    </div>
+    <div class="columns">
+      <div class="column">
+        <a href="/funalmanac/register" class="button is-info is-expanded">
+          Register
+        </a>
+      </div>
+      <div class="column">
+        <button class="button is-danger is-expanded" id="login-close">
+          Cancel
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
